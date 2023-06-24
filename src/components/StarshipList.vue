@@ -35,29 +35,19 @@
 
     export default {
         props: {
-            name,
+            string: {
+                type: String,
+            },
             model: {
                 type: String,
             },
             manufacturer: {
                 type: String,
             },
-            starship_class: {
-                type: String,
-            },
-            length: {
-                type: String,
-            },
             passengers: {
                 type: String,
             },
             crew: {
-                type: String,
-            },
-            max_atmosphering_speed: {
-                type: String,
-            },
-            cargo_capacity: {
                 type: String,
             },
             link: {
