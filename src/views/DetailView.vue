@@ -33,7 +33,7 @@
 
             <div class="relative mx-auto my-8 md:my-10 md:w-max">
                 <RocketIcon iconClass="h-[75%] w-[75%] md:h-[calc(100vh_-_35rem)] md:w-[calc(100vh_-_35rem)] mx-auto border-r" />
-                <div class="bg-black absolute top-half right-0 md:-translate-y-half">
+                <div class="bg-black absolute top-half right-0 -translate-y-half">
                     <span class="inline-block md:translate-x-half font-medium text-base md:text-xl">
                         {{ starship.length }} m
                     </span>
