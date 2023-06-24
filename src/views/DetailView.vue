@@ -29,7 +29,7 @@
         </template>
         <template v-else>
             <h1 class="uppercase font-medium text-3xl md:text-4xl lg:text-6xl">{{ starship.name }}</h1>
-            <p class="text-lg md:text-xl text-white/60 mt-1 md:mt-2">{{ starship.model }} by {{ starship.manufacturer }}</p>
+            <p class="text-base md:text-xl text-white/60 mt-1 md:mt-2">{{ starship.model }} by {{ starship.manufacturer }}</p>
 
             <div class="relative mx-auto my-8 md:my-10 md:w-max">
                 <RocketIcon iconClass="h-[75%] w-[75%] md:h-[calc(100vh_-_35rem)] md:w-[calc(100vh_-_35rem)] mx-auto border-r" />
